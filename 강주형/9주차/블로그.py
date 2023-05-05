@@ -1,6 +1,8 @@
 # 21921
 # 블로그
 
+# 슬라이딩 윈도우
+
 n, x = map(int, input().split())
 visit = list(map(int, input().split()))
 

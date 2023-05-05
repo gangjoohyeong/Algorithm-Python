@@ -1,6 +1,8 @@
 # 1446
 # 지름길
 
+# DP (or 다익스트라?)
+
 n, d = map(int, input().split())
 array = []
 
