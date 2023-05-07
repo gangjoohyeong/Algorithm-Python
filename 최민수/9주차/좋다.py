@@ -8,8 +8,10 @@ count = 0
 
 for i in range(n) :
     temp = number[: i] + number[i + 1 :]
-    left, right = 0, len(temp) - 1
+    left, right = 0, n - 2
     
+    print(right)
+
     while left < right : 
         ans = temp[left] + temp[right]
         
