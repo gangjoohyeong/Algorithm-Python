@@ -20,6 +20,7 @@ def dijkstra(x) :
     while queue : 
         d, w = heapq.heappop(queue)
         for neww, newd in matrix[w] :
+            
             if d + newd < distance[neww] :
                 distance[neww] = d + newd
                 heapq.heappush(queue, (d + newd, neww))
