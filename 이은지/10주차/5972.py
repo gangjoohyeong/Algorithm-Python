@@ -15,7 +15,7 @@ for _ in range(m):
 
 def dijkstra(start):
     q = []
-    heapq.heappush(q, (0, start))          # q에 (우선순위, 값) 을 push
+    heapq.heappush(q, (0, start))           # q에 (우선순위, 값) 을 push
     distance[start] = 0                     # 시작 노드 초기화 
 
     while q:                                # q가 비어있을 때까지 반복
