@@ -5,7 +5,7 @@ n, c = map(int, sys.stdin.readline().split())
 number = [int(sys.stdin.readline()) for i in range(n)]
 number.sort()
 
-if c == 2 : 
+if n == 2 : 
     print(number[-1] - number[0])
     sys.exit()
     
