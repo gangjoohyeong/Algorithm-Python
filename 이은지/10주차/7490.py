@@ -1,4 +1,4 @@
-# https://www.acmicpc.net/problem/7490
+# 0 만들기 https://www.acmicpc.net/problem/7490
 # 모든 경우의 수 고려? 공백 또는 + 또는 - (최대 경우의 수: 3**8)
 from sys import stdin
 

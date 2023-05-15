@@ -1,7 +1,7 @@
+# 택배 배송 https://www.acmicpc.net/problem/5972
+# 다익스트라 공부 필요
 from sys import stdin 
 import heapq
-# https://www.acmicpc.net/problem/5972
-# 다익스트라 공부 필요
                 
 n, m = map(int, stdin.readline().split())   # n: node, m: edge
 graph = [[] for _ in range(n+1)]            # index: node 번호 

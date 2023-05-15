@@ -1,3 +1,4 @@
+# 햄버거 분배 https://www.acmicpc.net/problem/19941
 from sys import stdin
 
 n, k = map(int, stdin.readline().split())

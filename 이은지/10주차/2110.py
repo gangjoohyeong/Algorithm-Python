@@ -1,4 +1,4 @@
-# https://www.acmicpc.net/problem/2110
+# 공유기 설치 https://www.acmicpc.net/problem/2110
 from sys import stdin
 
 n, c = map(int, stdin.readline().split())       # n: 집 개수, c: 공유기 개수

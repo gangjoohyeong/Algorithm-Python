@@ -1,3 +1,4 @@
+# 최소 힙 https://www.acmicpc.net/problem/1927
 from sys import stdin           # 그냥 input 쓰면 시간 초과
 import heapq
 
