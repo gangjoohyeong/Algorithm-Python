@@ -9,7 +9,7 @@ graph = [[] for i in range(n+1)]
 
 for _ in range(m):
   a, b, c = map(int, input().split()) # 헛간 a_i, 헛간 b_i, 소 마리수
-  graph[a].append((b, c))
+  graph[a].append((b, c)) # 양방향 
   graph[b].append((a, c))
 
 def dijkstra(start):
@@ -28,7 +28,7 @@ def dijkstra(start):
         distance[next_node] = cost
         heappush(heap, (cost, next_node))
         
-dijkstra(1)
+dijkstra(1) # 시작 노드 (1)에서부터 
 
-print(distance[n])
+print(distance[n]) # N번 노드까지의 최단 거리 력
         
