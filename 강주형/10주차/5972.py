@@ -30,7 +30,6 @@ def dijkstra(start):
                 distance[i[0]] = cost
                 heapq.heappush(q, (cost, i[0]))
 
-visited = [False] * (n+1)
 distance = [INF] * (n+1)
 
 dijkstra(1) # 1번 노드에서
