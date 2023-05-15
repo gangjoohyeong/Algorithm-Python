@@ -30,6 +30,6 @@ while start < end :
         start = mid + 1
         
     elif count < c :
-        end = mid
+        end = mid - 1
         
 print(result)   
