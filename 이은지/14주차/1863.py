@@ -23,7 +23,7 @@ for _ in range(n):
         while h < stack[-1]:
             stack.pop()
             if h > stack[-1]:
-                answer += 1
                 stack.append(h)
+                answer += 1
 
 print(answer)
